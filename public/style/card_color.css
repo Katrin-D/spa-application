@@ -1,0 +1,48 @@
+.color_name {
+    font-weight: 600;
+    font-size: 19px;
+    padding: 10px 3px;
+}
+
+.card_color_inner {
+    border: 3px solid #fff;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.2s;
+}
+
+.card_color_inner:hover .card_color_img{
+    border: 3px solid #022B32;
+    border-radius: 10px;
+}
+
+.card_color_img{
+    padding: 0;
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+}
+
+.card_color_text {
+    padding: 16px 3px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #313131;
+}
+
+.card_color_text a{
+    display: block;
+   margin-bottom: 5px; 
+   cursor: pointer;
+}
+
+.card_color_text a:hover {
+    color: #000;
+    font-weight: 600;
+}
+
+.card_color_text a:focus {
+    color: green;
+    font-weight: 600;
+}

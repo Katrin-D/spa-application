@@ -1,0 +1,100 @@
+@import "slider.css";
+@import "card_dog.css";
+@import "card_color.css";
+@import "products.css";
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    overflow-x: hidden;
+    min-width: 250px;
+}
+
+.main-content{
+    min-height: calc(100vh - 210px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.title {
+    margin: 20px 0px;
+}
+
+h1, h2, h3, h4, p, a, img, ul, li{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+
+header, section, footer{
+    width: 100%;
+    margin: 0 auto;
+}
+
+button{
+    cursor: pointer;
+}
+
+/*  HEADER  */
+
+.header {
+    background-color: #022B32;
+}
+
+.nav {
+	display: flex;
+    padding: 25px 20px;
+    align-items: center;
+     
+}
+
+.logo {
+    width: 110px;
+}
+
+.nav_link {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 55px;
+}
+
+.router-link-exact-active {
+    text-decoration: underline;
+
+}
+
+.title{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #022B32;
+    padding: 25px 20px;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 90px;
+    }
+
+    .nav_link {
+        margin-left: 25px;
+    }
+}
